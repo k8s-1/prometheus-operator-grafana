@@ -1,3 +1,4 @@
+# Grafana will be able to pull the metrics from http://<node_ip>:30900
 apiVersion: v1
 kind: Service
 metadata:
