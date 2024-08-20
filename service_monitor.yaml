@@ -11,6 +11,6 @@ spec:
     path: /metrics
   namespaceSelector:
     any: true
-  selector:
-    matchLabels:
-      operated-prometheus: "true"
+  # selector:
+  #   matchLabels:
+  #     operated-prometheus: "true"
