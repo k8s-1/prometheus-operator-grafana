@@ -1,5 +1,5 @@
 # Prereq
-Local test cluster (e.g. minikube)
+Local test cluster with node-ip capabilities (e.g. minikube)
 
 # Install prometheus operator to cluster
 ```
