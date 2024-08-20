@@ -3,7 +3,7 @@
 * Grafana visualizes
 
 # Prereq
-Local test cluster with node-ip capabilities (e.g. minikube)
+Kubernetes cluster, local test cluster with node-ip capabilities works (e.g. minikube)
 
 # Install prometheus operator to cluster
 ```
