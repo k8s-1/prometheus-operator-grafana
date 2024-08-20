@@ -4,3 +4,5 @@ resources:
 - prometheus_instance.yaml
 - service_monitor.yaml
 - grafana.yaml
+- grafana_svc.yaml
+- expose_prometheus.yaml
