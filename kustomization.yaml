@@ -1,5 +1,5 @@
 resources:
 - prometheus-operator-bundle.yaml
-- prometheus_instance.yaml
 - prometheus_rbac.yaml
+- prometheus_instance.yaml
 - service_monitor.yaml
