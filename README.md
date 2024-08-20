@@ -7,6 +7,7 @@ Kubernetes cluster, local test cluster with node-ip capabilities works (e.g. min
 
 # Install prometheus operator to cluster
 ```
+# fetch latest prometheus-operator bundle
 wget https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/main/bundle.yaml -O prometheus_operator.yaml
 
 kustomize build . | kubectl create -f -
