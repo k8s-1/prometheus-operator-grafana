@@ -3,3 +3,4 @@ resources:
 - prometheus_rbac.yaml
 - prometheus_instance.yaml
 - service_monitor.yaml
+- grafana.yaml
