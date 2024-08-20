@@ -1,3 +1,7 @@
+# Intro
+* Prometheus collects kubernetes metrics
+* Grafana visualizes
+
 # Prereq
 Local test cluster with node-ip capabilities (e.g. minikube)
 
