@@ -24,7 +24,7 @@ kubectl port-forward svc/grafana 3000:3000
     kubectl get nodes -o wide # get node_ip
     ```
 * You can’t use http://localhost:9090 as your HTTP URL because Grafana won’t have access to it. You must expose prometheus using a NodePort or LoadBalancer.
-* Add and configure a dashboard
+* Add and configure a dashboard, export to json
 
 
 ## Removal
