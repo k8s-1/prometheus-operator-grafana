@@ -1,5 +1,5 @@
 resources:
-- deployment.yaml
-patchesStrategicMerge:
-- increase_replicas.yaml
-- set_memory.yaml
+- bundle.yaml
+- prometheus_instance.yaml
+- prometheus_rbac.yaml
+- service_monitor.yaml
