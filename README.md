@@ -3,9 +3,15 @@
 wget https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/main/bundle.yaml -O prometheus_operator.yaml
 
 kustomize build . | kubectl create -f -
+```
 
-# kubectl port-forward svc/prometheus-operated 9090:9090 # optionally check prometheus
+## Check prometheus
+```
+kubectl port-forward svc/prometheus-operated 9090:9090 # optionally check prometheus
+```
 
+## Configure grafana
+```
 kubectl port-forward svc/grafana 3000:3000
 ```
 
