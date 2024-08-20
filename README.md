@@ -1,6 +1,6 @@
 # Install prometheus operator to cluster
 ```
-wget https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/main/bundle.yaml -O bundle.yaml
+wget https://raw.githubusercontent.com/prometheus-operator/prometheus-operator/main/bundle.yaml -O prometheus_operator.yaml
 
 kustomize build . | kubectl create -f -
 
