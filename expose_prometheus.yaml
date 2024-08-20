@@ -1,0 +1,16 @@
+# Grafana will be able to pull the metrics from http://<node_ip>:30900
+# To view the <node_ip>, run kubectl get nodes -o wide
+apiVersion: v1
+kind: Service
+metadata:
+  name: prometheus
+spec:
+  type: NodePort
+  ports:
+  - name: web
+    nodePort: 30900
+    port: 9090
+    protocol: TCP
+    targetPort: web
+  selector:
+    prometheus: prometheus
